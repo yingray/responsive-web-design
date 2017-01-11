@@ -4,26 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Bootstrap</title>
+    <title>challenge</title>
     <style>
-    	.row>div {
-    		height: 100px;
-    	}
+        body {
+            background-color: #eee;
+        }
+        header, section, aside, footer {
+            margin-inside: 10px;
+            background-color: white;
+            border: solid 1px #000;
+            height: 500px;
+            /*box-sizing: border-box;*/
+        }
+        header, footer {
+            height: 50px;
+        }
+        article {
+            border: solid 1px #ccc;
+            margin: 10px auto;
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
-	<div class="container-fuild">
-		<div class="row">
-			<div class="col-xs-12"></div>
-		</div>
-	</div>
 
+<div class="container">
+    <header class="col-md-12">header</header>
+    <section class="col-md-2">section1</section>
+    <section class="col-md-8">section2
+        <article>
+            <h1>Article</h1>
+            <p>Bunch of awesome content</p>
+        </article>
+        <article>
+            <h1>Article</h1>
+            <p>Bunch of awesome content</p>
+        </article>
+    </section>
+    <aside class="col-md-2">aside</aside>
+    <footer class="col-md-12">footer</footer>
+</div>
 
-	<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
