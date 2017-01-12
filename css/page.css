@@ -1,0 +1,100 @@
+section {
+    padding: 40px 20px 40px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: darkcyan;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.5px;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.jumbotron {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 100px 25px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+
+.card {
+    height: 200px;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-position: center;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+._card01 {
+    background-image: url(http://nearsoft.com/admin/wp-content/uploads/2015/11/joinus-java.png);
+}
+
+._card02 {
+    background-image: url(http://asphostportal.com/img/icon-sql.png);
+}
+
+._card03 {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/2479876/14570828119302_illu-cours_html5-css3.png);
+}
+
+._card04 {
+    background-image: url(http://www.myrepublica.com/uploads/media/android.png);
+}
+
+._card05 {
+    background-image: url(http://emberify.com/blog/wp-content/uploads/2014/11/emberify_iot_1.jpg);
+}
+
+._card06 {
+    background-image: url(http://manageyourmedia.eu/wp-content/uploads/2014/10/software-development.jpg);
+}
+
+.logo {
+    color: darkcyan;
+    font-size: 100px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+#portfolio {
+    background-color: #eee;
+}
