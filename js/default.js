@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     $(".navbar a").on('click', function (event) {
         console.log(this.hash)
         if(this.hash !== '') {
@@ -25,3 +25,12 @@ $(window).scroll(function() {
         }
     });
 });
+
+
+
+
+
+
+
+
+
